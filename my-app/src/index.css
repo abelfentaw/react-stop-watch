@@ -1,0 +1,220 @@
+ body{
+  /* background-image:url(assets/dinosaur.jpg); */
+  /* background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  margin:0px; */
+
+  display:flex;
+  justify-content: center;
+  /* min-height:100vh; */
+  flex-direction:column;
+  align-items:center;
+ }
+
+
+/* .card{
+  border: 1px solid hsl(0, 5%, 76%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 20%, 1%, 1.00);
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  max-width:250px;
+  display: inline-block;
+}
+
+.card .card-image{
+  max-width:60%;
+  height:auto;
+  border-radius:50%;
+  margin-bottom:10px
+}
+
+.card .card-title{
+  font-family:Arial, sans-serif;
+  margin:0;
+  color: hsla(0, 1%, 49%, 1.00)
+}
+
+.card .card-text{
+  font-family:Arial, sans-serif;
+  color: hsl(0, 11%, 17%)
+} */
+/* .student{
+  font-family:Arial, sans-serif;
+  font-size:2em;
+  color: hsl(100, 4%, 15%);
+  border:1px solid hsl(211, 14%, 36%);
+  padding:10px;
+  border-radius:20px;
+  max-width:280px;
+  margin:10px;
+}
+.student p{
+  margin:10px;
+} */
+/* 
+ .welcome-message{
+  font-size:2.5em;
+  background-color:green;
+  color:white;
+  padding:10px;
+  margin:0px;
+  border-radius:5px;
+  text-align:center;
+ }
+ .logging-message{
+  font-size:2.5em;
+  background-color: red;
+  color:white;
+  padding:10px;
+  margin:0px;
+  border-radius:5px;
+  text-align:center;
+ }
+ /* .calculate{
+  font-size:2.5em;
+  margin:10px;
+  text-align:center;
+ }
+ .calculate button{
+  padding:5px;
+  margin:10px
+  
+ }
+ .calculate h1{
+  color:green;
+ } */
+
+ /* .to-do-list{
+  font-family:Arial, sans-serif;
+  text-align:center;
+  margin-top:100px
+ } */
+ /* h1{
+  font-size:4rem;
+  color:white
+ }
+ button{
+  font-size:1.7rem;
+  /* font-weight:bold; */
+  /* padding:10px 20px;
+  /* color:white; */
+  /* border:none;
+  border-radius:5px; */
+  /* cursor:pointer; */
+  /* transition: background-color 0.5s ease;  */
+ /* } */
+ /* .add-task{
+  background-color:hsl(125, 47%,54%)
+ }
+ .add-task:hover{
+  background-color:hsl(125, 47%,34%)
+ }
+  .delete-task{
+  background-color:hsla(0, 91%, 46%, 0.85)
+ }  */
+ /* .delete-task:hover{
+  background-color:hsla(0, 91%, 30%, 0.55)
+ }
+  .move-task{
+  background-color:hsla(243, 92%, 40%, 0.55)
+ }
+ .move-task:hover{
+  background-color:hsla(209, 91%, 29%, 0.85)
+ } */
+ /* input[type="text"]{
+  font-size:1.6rem;
+  padding:10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius:5px
+  color:hsla(0, 0%, 0%, 0.5)
+ } */
+ /* ol{
+  padding:0px */
+ /* }
+ li{
+  font-size:2rem;
+  font-weight:bold;
+  padding:15px;
+  background-color:hsla(0, 0%, 80%, 0.75);
+  margin-bottom:10px;
+  border:3px solid hsla(0, 21%, 74%, 0.15);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+ } */
+ /* .text{
+  flex:1;
+ } */ 
+ /* button{
+  padding:8px 12px;
+  font-size:1.4rem;
+  margin-left:10px;
+ } */
+ /* .clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding:10px 0;
+ } */
+ /* .clock{
+  color:white;
+  font-size:6rem;
+  font-weight:bold;
+  font-family:monospace;
+  text-align:center;
+  text-shadow: 3px 3px 5px hsla(0, 52%, 57%, 0.91);
+ }
+ .Box{
+  border:3px solid;
+  padding:25px;
+ } */
+
+ .stop-watch{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border:5px solid;
+  border-radius:50px;
+  background-color:white;
+  padding:30px;
+ }
+ .display{
+  font-size:6rem;
+  fotn-weight:bold;
+  color:hsla(0, 0%, 39%, 1.00);
+  text-shadow:2px 2px 2px hsla(0, 4%, 5%, 1.00);
+  margin-bottom: 25px;
+}
+.controler button{
+  font-size:1.6rem;
+  font-weight:bold;
+  padding:10px 20px;
+  margin:5px;
+  min-width:125px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  color:white;
+  /* transition:background-color 0.5s ease; */
+}
+.start{
+  background-color:hsl(115,100%,40%)
+}
+.start:hover{
+  background-color:hsl(115,100%,30%)
+}
+.stop{
+  background-color:hsla(0, 92%, 50%, 1.00)
+}
+.stop:hover{
+  background-color:hsla(6, 88%, 30%, 1.00)
+}
+.reset{
+  background-color:hsla(244, 94%, 41%, 1.00)
+}
+.reset:hover{
+  background-color:hsl(236, 78%, 28%)
+}
